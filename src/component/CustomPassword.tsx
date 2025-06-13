@@ -92,7 +92,7 @@ const CustomPassword = () => {
       <div className="md:px-6">
         <TabsHeader
           title="Custom Style Password"
-          subtitle="Password has a minimum of 4 digits and maximum of 120 digits in total length."
+          subtitle="Custom Password has a minimum of 4 digits and maximum of 480 digits in total length."
         />
 
         <form onSubmit={handleSubmit(onSubmit)}>

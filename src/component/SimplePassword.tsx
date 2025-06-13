@@ -57,7 +57,7 @@ const SimplePassword = () => {
       <div className="space-y-6 md:px-6">
         <TabsHeader
           title="Simple Style Password"
-          subtitle="Password has a minimum of 4 digits and maximum of 120 digits."
+          subtitle="Simple Password has a minimum of 4 digits and maximum of 120 digits."
         />
 
         <form onSubmit={handleSubmit(onSubmit)}>
