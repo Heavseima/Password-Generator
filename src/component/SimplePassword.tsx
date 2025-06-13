@@ -28,7 +28,6 @@ const SimplePassword = () => {
   const { register, handleSubmit, watch, setValue, formState: { isSubmitting } } = useForm<FieldValues>({defaultValues:{length: length}});
 
   const value = watch();
-  console.log("length", value.length)
 
   const [justGenerated, setJustGenerated] = useState(false)
   const [disableButton, setDisableButton] = useState(false)
@@ -43,7 +42,6 @@ const SimplePassword = () => {
     await new Promise(resolve => setTimeout(resolve, 750));
     generatePassword();
     setJustGenerated(true)
-    console.log("data",data)
   };
 
   const checkedCount =
